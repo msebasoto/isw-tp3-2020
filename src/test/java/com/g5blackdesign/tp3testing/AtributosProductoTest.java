@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 
 class TestAtributosproducto{
 
-    static Producto producto1=new Producto("comida", "galleta", 45);
+    static Producto producto1=new Producto("merienda", "galleta ", 45);
    
     @Test
     public void testNombreNoDebeEstarVacio(){
@@ -26,4 +26,3 @@ class TestAtributosproducto{
         assertEquals(true, precioReal>=0);
         
    }
-}
