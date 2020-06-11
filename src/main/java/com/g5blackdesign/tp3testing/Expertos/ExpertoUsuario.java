@@ -16,9 +16,18 @@ public class ExpertoUsuario {
     private Usuario usuario;
     public Carrito carrito;
     
+    public static boolean contieneSoloLetras(String cadena) {
+        for (int x = 0; x < cadena.length(); x++) {
+            char c = cadena.charAt(x);
+            if (!((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || c == ' ')) 
+                return false;
+        }
+        return true;
+    }
+    
     
     public boolean CrearUsuario(Carrito carrito, String nombre, String apellido, String dni, String email){
-        if (!carrito.getListdetallecarrito().isEmpty()) {
+        if (!carrito.getListdetallecarrito().isEmpty() && ExpertoUsuario.contieneSoloLetras(nombre)) {
             usuario = new Usuario(nombre,apellido,dni,email);
             usuario.setCarrito(carrito);
             return true;
