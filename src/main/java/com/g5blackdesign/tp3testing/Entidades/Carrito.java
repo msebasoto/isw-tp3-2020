@@ -19,6 +19,9 @@ public class Carrito {
         this.listdetallecarrito = listdetallecarrito;
     }
 
+    public Carrito() {
+    }
+
     public int getId() {
         return id;
     }
@@ -35,4 +38,12 @@ public class Carrito {
         this.listdetallecarrito = listdetallecarrito;
     }
     
+    
+    public Boolean CrearCarrito(Producto p){
+        if (p.getNombre().isEmpty() || p.getDescripcion().isEmpty() || p.getPrecio() == 0.0){
+            return false;
+        }else{
+            return true;
+        }
+    }
 }
