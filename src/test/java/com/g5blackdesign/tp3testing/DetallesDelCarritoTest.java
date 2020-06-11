@@ -26,7 +26,6 @@ public class DetallesDelCarritoTest {
     static Producto producto1;
     static Producto producto2;
     static ControladorCarrito controladorcarrito;
-
     // ANTES DE INICIAR LOS TEST DEFINIMOS LOS VALORES UTILIZANDO UNA FUNCION
     @BeforeAll
     public static void CrearObjetosNecesarios() {
