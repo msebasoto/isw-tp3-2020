@@ -19,7 +19,8 @@ public class ExpertoUsuario {
     
     public boolean CrearUsuario(Carrito carrito, String nombre, String apellido, String dni, String email){
         if (!carrito.getListdetallecarrito().isEmpty()) {
-            usuario = new Usuario(carrito,nombre,apellido,dni,email);
+            usuario = new Usuario(nombre,apellido,dni,email);
+            usuario.setCarrito(carrito);
             return true;
         }
         return false;
