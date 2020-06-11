@@ -10,6 +10,7 @@ import com.g5blackdesign.tp3testing.Entidades.DetalleCarrito;
 import com.g5blackdesign.tp3testing.Entidades.Producto;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.DisplayNameGeneration;
 import org.junit.jupiter.api.DisplayNameGenerator;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -43,7 +44,8 @@ public class DetallesDelCarritoTest {
     }
     
 
-    @ParameterizedTest(name = "Fallo al crear DetalleCarrito de Producto inexistente.")
+    @ParameterizedTest()
+    @DisplayName("Fallo al crear DetalleCarrito de Producto inexistente.")
     @CsvSource({"20,10,60"})
     void CrearDetalleCarritoDeProductoInexistente(final int idproducto, final int idcarrito, final int cantidad) {
         final DetalleCarrito detallecarrito = new DetalleCarrito(idproducto, idcarrito, cantidad);
@@ -51,6 +53,7 @@ public class DetallesDelCarritoTest {
     }
     
     @ParameterizedTest
+    @DisplayName("Restar cantidad de DetalleCarrito mayor a cantidad actual en DetalleCarrito de Carrito")
     @CsvSource({"45,10,-80"})
     void RestarCantidadDetalleCarritoMayorACantidadActualEnCarrito(final int idproducto, final int idcarrito, final int cantidad){
         final DetalleCarrito detallecarrito2 = new DetalleCarrito(idproducto, idcarrito, cantidad);
