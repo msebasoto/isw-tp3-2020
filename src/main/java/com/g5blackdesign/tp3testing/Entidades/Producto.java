@@ -8,6 +8,9 @@ public class Producto {
     
     public Producto(){
     }
+
+    
+
     private int cantidad;
 
     public int getCantidad() {
@@ -57,6 +60,12 @@ public class Producto {
         this.descripcion = descripcion;
         this.precio = precio;
         this.cantidad = cantidad;
+    }
+
+    public Producto(String nombre, String descripcion, float precio) {
+        this.nombre = nombre;
+        this.descripcion = descripcion;
+        this.precio = precio;
     }
     
 }
