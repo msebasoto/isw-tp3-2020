@@ -26,3 +26,5 @@ class TestAtributosproducto{
         assertEquals(true, precioReal>=0);
         
    }
+
+}
