@@ -13,8 +13,7 @@ import com.g5blackdesign.tp3testing.Entidades.DetalleCarrito;
 import com.g5blackdesign.tp3testing.Controladores.ControladorUsuario;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.DisplayNameGeneration;
-import org.junit.jupiter.api.DisplayNameGenerator;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
@@ -36,17 +35,18 @@ public class IgnacioTest {
       
         
    
-    
+        @DisplayName("Fallo al crear USUARIO con carrito vacío")
         @ParameterizedTest
         @CsvSource({"Ignacio,Galvez,35678392,lafg@mail.com"})
             void CrearUsuarioConCarroVacío(final String nombreCliente, final String apellidoCliente, final String dniCliente,final String mailCliente) {
-                listaDetalleCarrito = new ArrayList();
+                listaDetalleCarrito = new ArrayList(); //CARRITO VACIO
                 carrito = new Carrito(listaDetalleCarrito);
+                carrito.setId(1);
                 controladorUsuario = new ControladorUsuario();
                 assertEquals(false,controladorUsuario.getExpertoUsuario().CrearUsuario(carrito, nombreCliente, apellidoCliente, dniCliente, mailCliente));
         }
             
-            
+        @DisplayName("Fallo al crear USUARIO con nombre con simbolos distintos a letras")    
         @ParameterizedTest
         @CsvSource({"S3rg10,Gonzalez,35678392,lafg@mail.com"})
             void CrearUsuarioConNombreconNumeros(final String nombreCliente, final String apellidoCliente, final String dniCliente,final String mailCliente) {
@@ -54,6 +54,7 @@ public class IgnacioTest {
                 producto1.setId(1);
                 detalleCarrito = new DetalleCarrito(1,1,1);
                 listaDetalleCarrito = new ArrayList();
+                listaDetalleCarrito.add(detalleCarrito);
                 carrito = new Carrito(listaDetalleCarrito);
                 carrito.setId(1);
                 controladorUsuario = new ControladorUsuario();
