@@ -59,8 +59,7 @@ public class Usuario {
         this.email = email;
     }   
     
-    public Usuario(Carrito carrito, String nombre, String apellido, String dni, String email) {
-        this.carrito = carrito;
+    public Usuario(String nombre, String apellido, String dni, String email) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.dni = dni;
