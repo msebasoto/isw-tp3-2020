@@ -1,0 +1,9 @@
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\CarritoComprasEcomerce\bin\Debug\netstandard2.0\CarritoComprasEcomerce.deps.json
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\CarritoComprasEcomerce\bin\Debug\netstandard2.0\CarritoComprasEcomerce.dll
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\CarritoComprasEcomerce\bin\Debug\netstandard2.0\CarritoComprasEcomerce.pdb
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\CarritoComprasEcomerce\obj\Debug\netstandard2.0\CarritoComprasEcomerce.csprojAssemblyReference.cache
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\CarritoComprasEcomerce\obj\Debug\netstandard2.0\CarritoComprasEcomerce.csproj.CoreCompileInputs.cache
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\CarritoComprasEcomerce\obj\Debug\netstandard2.0\CarritoComprasEcomerce.AssemblyInfoInputs.cache
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\CarritoComprasEcomerce\obj\Debug\netstandard2.0\CarritoComprasEcomerce.AssemblyInfo.cs
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\CarritoComprasEcomerce\obj\Debug\netstandard2.0\CarritoComprasEcomerce.dll
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\CarritoComprasEcomerce\obj\Debug\netstandard2.0\CarritoComprasEcomerce.pdb

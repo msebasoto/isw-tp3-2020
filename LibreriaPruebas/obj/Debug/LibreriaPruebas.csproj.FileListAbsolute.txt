@@ -1,0 +1,16 @@
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\LibreriaPruebas\bin\Debug\xunit.abstractions.dll
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\LibreriaPruebas\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\LibreriaPruebas\bin\Debug\xunit.runner.reporters.net452.dll
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\LibreriaPruebas\bin\Debug\xunit.runner.utility.net452.dll
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\LibreriaPruebas\bin\Debug\LibreriaPruebas.dll
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\LibreriaPruebas\bin\Debug\LibreriaPruebas.pdb
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\LibreriaPruebas\bin\Debug\xunit.assert.dll
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\LibreriaPruebas\bin\Debug\xunit.core.dll
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\LibreriaPruebas\bin\Debug\xunit.execution.desktop.dll
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\LibreriaPruebas\bin\Debug\CarritoComprasEcomerce.dll
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\LibreriaPruebas\bin\Debug\CarritoComprasEcomerce.pdb
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\LibreriaPruebas\obj\Debug\LibreriaPruebas.csprojAssemblyReference.cache
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\LibreriaPruebas\obj\Debug\LibreriaPruebas.csproj.CoreCompileInputs.cache
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\LibreriaPruebas\obj\Debug\LibreriaPruebas.csproj.CopyComplete
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\LibreriaPruebas\obj\Debug\LibreriaPruebas.dll
+C:\Users\sythe\source\repos\CarritoComprasEcomerce\LibreriaPruebas\obj\Debug\LibreriaPruebas.pdb

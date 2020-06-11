@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "Uf2xyvfTdjDfWMcppr7/6fLqxbQv1+mOYx5CTpd2LTztYA2KOARdNO98eclZdH5Q1rkS1gnrMvOv32BZqzgZyw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sythe\\source\\repos\\CarritoComprasEcomerce\\LibreriaPruebas\\LibreriaPruebas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sythe\\.nuget\\packages\\xunit\\2.4.1\\xunit.2.4.1.nupkg.sha512",
+    "C:\\Users\\sythe\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\sythe\\.nuget\\packages\\xunit.analyzers\\0.10.0\\xunit.analyzers.0.10.0.nupkg.sha512",
+    "C:\\Users\\sythe\\.nuget\\packages\\xunit.assert\\2.4.1\\xunit.assert.2.4.1.nupkg.sha512",
+    "C:\\Users\\sythe\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
+    "C:\\Users\\sythe\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
+    "C:\\Users\\sythe\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
+    "C:\\Users\\sythe\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.2\\xunit.runner.visualstudio.2.4.2.nupkg.sha512"
+  ],
+  "logs": []
+}
