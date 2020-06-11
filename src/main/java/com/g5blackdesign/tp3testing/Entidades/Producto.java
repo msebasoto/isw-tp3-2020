@@ -5,7 +5,21 @@ public class Producto {
     private String nombre;
     private String descripcion;
     private float precio;
+    
+    public Producto(){
+    }
+    private int cantidad;
 
+    public int getCantidad() {
+        return cantidad;
+    }
+
+    public void setCantidad(int cantidad) {
+        this.cantidad = cantidad;
+    }
+    
+    
+    
     public int getId() {
         return id;
     }
@@ -38,10 +52,11 @@ public class Producto {
         this.precio = precio;
     }
 
-    public Producto(String nombre, String descripcion, float precio) {
+    public Producto(String nombre, String descripcion, float precio, int cantidad) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.precio = precio;
+        this.cantidad = cantidad;
     }
     
 }

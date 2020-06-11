@@ -5,6 +5,7 @@
  */
 package com.g5blackdesign.tp3testing.Entidades;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -13,12 +14,16 @@ import java.util.List;
  */
 public class Carrito {
     private int id;
-    private List<DetalleCarrito> listdetallecarrito;
-
+    private List<DetalleCarrito> listdetallecarrito = new ArrayList();
+    
     public Carrito(List<DetalleCarrito> listdetallecarrito) {
         this.listdetallecarrito = listdetallecarrito;
     }
 
+    public Carrito() {
+        this.listdetallecarrito = new ArrayList<DetalleCarrito>();
+    }
+    
     public int getId() {
         return id;
     }
@@ -28,11 +33,16 @@ public class Carrito {
     }
 
     public List<DetalleCarrito> getListdetallecarrito() {
-        return listdetallecarrito;
+        return this.listdetallecarrito;
     }
-
+    
     public void setListdetallecarrito(List<DetalleCarrito> listdetallecarrito) {
         this.listdetallecarrito = listdetallecarrito;
+    }
+    
+    public boolean AddDetalleCarritoToCarrito(DetalleCarrito detallecarrito){
+        this.listdetallecarrito.add(detallecarrito);
+        return true;
     }
     
 }

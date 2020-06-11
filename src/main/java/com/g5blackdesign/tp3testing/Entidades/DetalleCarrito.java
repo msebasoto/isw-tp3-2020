@@ -10,10 +10,18 @@ package com.g5blackdesign.tp3testing.Entidades;
  * @author federico
  */
 public class DetalleCarrito {
+    //Creo que no hace falta esta variable
     private int idproducto;
+  
     private int idcarrito;
     private int cantidad;
-
+    private Producto producto;
+    
+    
+    public DetalleCarrito(){
+    
+    }
+    
     public DetalleCarrito(int idproducto, int idcarrito, int cantidad) {
         this.idproducto = idproducto;
         this.idcarrito = idcarrito;
@@ -43,5 +51,14 @@ public class DetalleCarrito {
     public void setCantidad(int cantidad) {
         this.cantidad = cantidad;
     }
+
+    public Producto getProducto() {
+        return producto;
+    }
+
+    public void setProducto(Producto producto) {
+        this.producto = producto;
+    }
+    
     
 }
