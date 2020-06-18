@@ -1,44 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sythe\\source\\repos\\CarritoComprasEcomerce\\LibreriaPruebas\\LibreriaPruebas.csproj": {}
+    "C:\\Users\\Jere\\source\\repos\\carritocomprasisw\\LibreriaPruebas\\LibreriaPruebas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sythe\\source\\repos\\CarritoComprasEcomerce\\LibreriaPruebas\\LibreriaPruebas.csproj": {
+    "C:\\Users\\Jere\\source\\repos\\carritocomprasisw\\LibreriaPruebas\\LibreriaPruebas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sythe\\source\\repos\\CarritoComprasEcomerce\\LibreriaPruebas\\LibreriaPruebas.csproj",
+        "projectUniqueName": "C:\\Users\\Jere\\source\\repos\\carritocomprasisw\\LibreriaPruebas\\LibreriaPruebas.csproj",
         "projectName": "LibreriaPruebas",
-        "projectPath": "C:\\Users\\sythe\\source\\repos\\CarritoComprasEcomerce\\LibreriaPruebas\\LibreriaPruebas.csproj",
-        "packagesPath": "C:\\Users\\sythe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sythe\\source\\repos\\CarritoComprasEcomerce\\LibreriaPruebas\\obj\\",
+        "projectPath": "C:\\Users\\Jere\\source\\repos\\carritocomprasisw\\LibreriaPruebas\\LibreriaPruebas.csproj",
+        "packagesPath": "C:\\Users\\Jere\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jere\\source\\repos\\carritocomprasisw\\LibreriaPruebas\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "E:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\sythe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jere\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net48"
+          "net461"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://133.61.1.206:8080/tfs/GDMCollection/_packaging/InterbetRepo/nuget/v3/index.json": {},
-          "http://133.61.1.206:8080/tfs/mendoza/_packaging/BMTP/nuget/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net48": {
+          "net461": {
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "net48": {
+        "net461": {
           "dependencies": {
             "xunit": {
               "target": "Package",

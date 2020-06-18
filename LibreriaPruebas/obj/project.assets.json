@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.8": {
+    ".NETFramework,Version=v4.6.1": {
       "xunit/2.4.1": {
         "type": "package",
         "dependencies": {
@@ -77,7 +77,7 @@
         }
       }
     },
-    ".NETFramework,Version=v4.8/win": {
+    ".NETFramework,Version=v4.6.1/win": {
       "xunit/2.4.1": {
         "type": "package",
         "dependencies": {
@@ -153,7 +153,7 @@
         }
       }
     },
-    ".NETFramework,Version=v4.8/win-x64": {
+    ".NETFramework,Version=v4.6.1/win-x64": {
       "xunit/2.4.1": {
         "type": "package",
         "dependencies": {
@@ -229,7 +229,7 @@
         }
       }
     },
-    ".NETFramework,Version=v4.8/win-x86": {
+    ".NETFramework,Version=v4.6.1/win-x86": {
       "xunit/2.4.1": {
         "type": "package",
         "dependencies": {
@@ -444,50 +444,48 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.8": [
+    ".NETFramework,Version=v4.6.1": [
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sythe\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Jere\\.nuget\\packages\\": {},
+    "E:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sythe\\source\\repos\\CarritoComprasEcomerce\\LibreriaPruebas\\LibreriaPruebas.csproj",
+      "projectUniqueName": "C:\\Users\\Jere\\source\\repos\\carritocomprasisw\\LibreriaPruebas\\LibreriaPruebas.csproj",
       "projectName": "LibreriaPruebas",
-      "projectPath": "C:\\Users\\sythe\\source\\repos\\CarritoComprasEcomerce\\LibreriaPruebas\\LibreriaPruebas.csproj",
-      "packagesPath": "C:\\Users\\sythe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sythe\\source\\repos\\CarritoComprasEcomerce\\LibreriaPruebas\\obj\\",
+      "projectPath": "C:\\Users\\Jere\\source\\repos\\carritocomprasisw\\LibreriaPruebas\\LibreriaPruebas.csproj",
+      "packagesPath": "C:\\Users\\Jere\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jere\\source\\repos\\carritocomprasisw\\LibreriaPruebas\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "E:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\sythe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jere\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net48"
+        "net461"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://133.61.1.206:8080/tfs/GDMCollection/_packaging/InterbetRepo/nuget/v3/index.json": {},
-        "http://133.61.1.206:8080/tfs/mendoza/_packaging/BMTP/nuget/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net48": {
+        "net461": {
           "projectReferences": {}
         }
       }
     },
     "frameworks": {
-      "net48": {
+      "net461": {
         "dependencies": {
           "xunit": {
             "target": "Package",

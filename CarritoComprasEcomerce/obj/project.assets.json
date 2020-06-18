@@ -179,25 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sythe\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Jere\\.nuget\\packages\\": {},
+    "E:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sythe\\source\\repos\\CarritoComprasEcomerce\\CarritoComprasEcomerce\\CarritoComprasEcomerce.csproj",
+      "projectUniqueName": "C:\\Users\\Jere\\source\\repos\\carritocomprasisw\\CarritoComprasEcomerce\\CarritoComprasEcomerce.csproj",
       "projectName": "CarritoComprasEcomerce",
-      "projectPath": "C:\\Users\\sythe\\source\\repos\\CarritoComprasEcomerce\\CarritoComprasEcomerce\\CarritoComprasEcomerce.csproj",
-      "packagesPath": "C:\\Users\\sythe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sythe\\source\\repos\\CarritoComprasEcomerce\\CarritoComprasEcomerce\\obj\\",
+      "projectPath": "C:\\Users\\Jere\\source\\repos\\carritocomprasisw\\CarritoComprasEcomerce\\CarritoComprasEcomerce.csproj",
+      "packagesPath": "C:\\Users\\Jere\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jere\\source\\repos\\carritocomprasisw\\CarritoComprasEcomerce\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "E:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\sythe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jere\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -206,8 +204,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://133.61.1.206:8080/tfs/GDMCollection/_packaging/InterbetRepo/nuget/v3/index.json": {},
-        "http://133.61.1.206:8080/tfs/mendoza/_packaging/BMTP/nuget/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
