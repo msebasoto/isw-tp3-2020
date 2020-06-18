@@ -64,12 +64,15 @@ namespace LibreriaPruebas
 
             CarritoCompras.LlenarCarrito(carrito,"8GB Ram DDR-4",6475,20,8);
             CarritoCompras.LlenarCarrito(carrito, "Motherboard Gigabyte", 13250, 5, 1);
-            CarritoCompras.LlenarCarrito(carrito, "SSD", 11000, 35, 4);
+            CarritoCompras.LlenarCarrito(carrito, "SSD", 11000, 6, 4);
             CarritoCompras.LlenarCarrito(carrito, "CPU AMD RYZEN 3900X", 75899, 10, 1);
             CarritoCompras.LlenarCarrito(carrito, "Fuente Alimentación 1000 W 80Plus Patinum", 9580, 15, 1);
             CarritoCompras.LlenarCarrito(carrito, "Placa de video Nvidia RTX 2080TI", 95000, 10, 2);
 
-            Assert.NotEmpty(carrito);
+            int cantidadElementosObservados = 6;
+
+            Assert.True(cantidadElementosObservados == carrito.Count);
+           
         }
     }
 }
