@@ -45,4 +45,12 @@ public class Carrito {
         return true;
     }
     
+    
+    public Boolean CrearCarrito(Producto p){
+        if (p.getNombre().isEmpty() || p.getDescripcion().isEmpty() || p.getPrecio() == 0.0){
+            return false;
+        }else{
+            return true;
+        }
+    }
 }
