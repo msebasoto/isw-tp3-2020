@@ -29,9 +29,9 @@ public class DetallesDelCarritoTest {
     // ANTES DE INICIAR LOS TEST DEFINIMOS LOS VALORES UTILIZANDO UNA FUNCION
     @BeforeAll
     public static void CrearObjetosNecesarios() {
-        producto1 = new Producto("Aceite de Oliva", "Aceite de oliva de extravirgen", (float) 200.57, 30);
+        producto1 = new Producto("NOTEBOOK LENOVO YOGA i5", "NOTEBOOK LENOVO YOGA CON PANTALLA TACTIL", (float) 200.57, 30);
         producto1.setId(45);
-        producto2 = new Producto("Aceite Girasol", "Aceite Girasol", (float) 100.55, 40);
+        producto2 = new Producto("DISCO NVME 1GB GREEN", "DISCO SSD NVME", (float) 100.55, 40);
         producto2.setId(65);
         controladorcarrito = new ControladorCarrito();
         

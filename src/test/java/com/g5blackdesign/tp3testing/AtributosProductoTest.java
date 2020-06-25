@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 
 class TestAtributosproducto{
 
-    static Producto producto1=new Producto("merienda", "galleta ", 45);
+    static Producto producto1=new Producto("PC AMD RYZEN 3700 PLACA DE VIDEO RX 580 8GB ", "PC GAMER", 1250);
    
     @Test
     public void testNombreNoDebeEstarVacio(){
