@@ -1,6 +1,6 @@
 # TRABAJO PRÁCTICO Nº3
 
-## Grupo 5 - Black Design.
+## Grupo 2 - Black Design.
 ## Curso: 4K09 - Ingenieria de Software.
 
 [![Build Status](https://travis-ci.com/fedegallar/tp3blackdesign.svg?branch=master)](https://travis-ci.com/fedegallar/tp3blackdesign)
@@ -12,3 +12,4 @@
 
 
 > Dentro de la carpeta del proyecto correr `mvn test` para ver los resultados de las pruebas. 
+
