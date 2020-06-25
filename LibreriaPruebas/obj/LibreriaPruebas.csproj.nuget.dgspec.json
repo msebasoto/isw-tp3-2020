@@ -1,32 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jere\\source\\repos\\carritocomprasisw\\LibreriaPruebas\\LibreriaPruebas.csproj": {}
+    "C:\\Users\\Diego\\Documents\\Facultad\\4º\\Ingeniería de software\\Proyecto Pruebas Unitarias\\LibreriaPruebas\\LibreriaPruebas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jere\\source\\repos\\carritocomprasisw\\LibreriaPruebas\\LibreriaPruebas.csproj": {
+    "C:\\Users\\Diego\\Documents\\Facultad\\4º\\Ingeniería de software\\Proyecto Pruebas Unitarias\\LibreriaPruebas\\LibreriaPruebas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jere\\source\\repos\\carritocomprasisw\\LibreriaPruebas\\LibreriaPruebas.csproj",
+        "projectUniqueName": "C:\\Users\\Diego\\Documents\\Facultad\\4º\\Ingeniería de software\\Proyecto Pruebas Unitarias\\LibreriaPruebas\\LibreriaPruebas.csproj",
         "projectName": "LibreriaPruebas",
-        "projectPath": "C:\\Users\\Jere\\source\\repos\\carritocomprasisw\\LibreriaPruebas\\LibreriaPruebas.csproj",
-        "packagesPath": "C:\\Users\\Jere\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jere\\source\\repos\\carritocomprasisw\\LibreriaPruebas\\obj\\",
+        "projectPath": "C:\\Users\\Diego\\Documents\\Facultad\\4º\\Ingeniería de software\\Proyecto Pruebas Unitarias\\LibreriaPruebas\\LibreriaPruebas.csproj",
+        "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Diego\\Documents\\Facultad\\4º\\Ingeniería de software\\Proyecto Pruebas Unitarias\\LibreriaPruebas\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "E:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jere\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net461"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

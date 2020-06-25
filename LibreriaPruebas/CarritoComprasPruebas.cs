@@ -74,5 +74,48 @@ namespace LibreriaPruebas
             Assert.True(cantidadElementosObservados == carrito.Count);
            
         }
+        [Fact]
+        public void PruebaCarritoCompra_Probar_si_nombre_producto_nulo ()
+        {
+            Producto prodActual = new Producto {
+                nombre = "X",
+                precio = 75,
+                descripcion = "marca Acme",
+                cantProd = 50
+            };
+
+            bool esperado = true;
+            bool actual = CarritoCompras.VerificarNombreProducto_Vacio(prodActual);
+
+            Assert.Equal(esperado, actual);
+        }
+        [Fact]
+        public void PruebaCarritoCompra_Probar_Stock_No_Negativo()
+        {
+            Producto prodActual = new Producto
+            {
+                nombre = "X",
+                precio = 75,
+                descripcion = "marca Acme",
+                cantProd = 50
+            };
+
+            //Assert.Equal(false, CarritoCompras.VerificarStockNegativoProducto(prodActual));
+            Assert.True(CarritoCompras.VerificarStockNONegativoProducto(prodActual));
+        }
+
+        [Fact]
+        public void PruebaCarritoCompra_Probar_Descripcion_No_Nula()
+        {
+            Producto prodActual = new Producto
+            {
+                nombre = "X",
+                precio = 75,
+                descripcion = "marca Acme",
+                cantProd = 50
+            };
+
+            Assert.True(CarritoCompras.VerificarDescripcionNOnula(prodActual));
+        }
     }
 }

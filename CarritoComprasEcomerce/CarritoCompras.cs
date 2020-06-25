@@ -57,6 +57,41 @@ namespace CarritoComprasEcomerce
             }
 
         }
+
+        public static bool VerificarNombreProducto_Vacio (Producto producto)
+        {
+            if(String.IsNullOrEmpty(producto.nombre)){
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        public static bool VerificarStockNONegativoProducto(Producto producto)
+        {
+            if(producto.cantProd < 0)
+            {
+                return false;
+            }else
+            {
+                return true;
+            }
+
+        }
+
+        public static bool VerificarDescripcionNOnula(Producto producto)
+        {
+            if (String.IsNullOrEmpty(producto.descripcion))
+            {
+                return false;
+            }else
+            {
+                return true;
+            }
+
+        }
     }
 
 }

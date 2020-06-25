@@ -16,3 +16,12 @@ C:\Users\Jere\source\repos\carritocomprasisw\CarritoComprasEcomerce\obj\Debug\ne
 C:\Users\Jere\source\repos\carritocomprasisw\CarritoComprasEcomerce\obj\Debug\netstandard2.0\CarritoComprasEcomerce.AssemblyInfo.cs
 C:\Users\Jere\source\repos\carritocomprasisw\CarritoComprasEcomerce\obj\Debug\netstandard2.0\CarritoComprasEcomerce.dll
 C:\Users\Jere\source\repos\carritocomprasisw\CarritoComprasEcomerce\obj\Debug\netstandard2.0\CarritoComprasEcomerce.pdb
+C:\Users\Diego\Documents\Facultad\4º\Ingeniería de software\Proyecto Pruebas Unitarias\CarritoComprasEcomerce\bin\Debug\netstandard2.0\CarritoComprasEcomerce.deps.json
+C:\Users\Diego\Documents\Facultad\4º\Ingeniería de software\Proyecto Pruebas Unitarias\CarritoComprasEcomerce\bin\Debug\netstandard2.0\CarritoComprasEcomerce.dll
+C:\Users\Diego\Documents\Facultad\4º\Ingeniería de software\Proyecto Pruebas Unitarias\CarritoComprasEcomerce\bin\Debug\netstandard2.0\CarritoComprasEcomerce.pdb
+C:\Users\Diego\Documents\Facultad\4º\Ingeniería de software\Proyecto Pruebas Unitarias\CarritoComprasEcomerce\obj\Debug\netstandard2.0\CarritoComprasEcomerce.csprojAssemblyReference.cache
+C:\Users\Diego\Documents\Facultad\4º\Ingeniería de software\Proyecto Pruebas Unitarias\CarritoComprasEcomerce\obj\Debug\netstandard2.0\CarritoComprasEcomerce.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Documents\Facultad\4º\Ingeniería de software\Proyecto Pruebas Unitarias\CarritoComprasEcomerce\obj\Debug\netstandard2.0\CarritoComprasEcomerce.AssemblyInfoInputs.cache
+C:\Users\Diego\Documents\Facultad\4º\Ingeniería de software\Proyecto Pruebas Unitarias\CarritoComprasEcomerce\obj\Debug\netstandard2.0\CarritoComprasEcomerce.AssemblyInfo.cs
+C:\Users\Diego\Documents\Facultad\4º\Ingeniería de software\Proyecto Pruebas Unitarias\CarritoComprasEcomerce\obj\Debug\netstandard2.0\CarritoComprasEcomerce.dll
+C:\Users\Diego\Documents\Facultad\4º\Ingeniería de software\Proyecto Pruebas Unitarias\CarritoComprasEcomerce\obj\Debug\netstandard2.0\CarritoComprasEcomerce.pdb
